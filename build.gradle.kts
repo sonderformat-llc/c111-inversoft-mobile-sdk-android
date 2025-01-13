@@ -3,9 +3,9 @@ import io.gitlab.arturbosch.detekt.report.ReportMergeTask
 
 // Top-level build file where you can add configuration options common to all sub-projects/modules.
 plugins {
-    id("com.android.application") version "8.7.3" apply false
+    id("com.android.application") version "8.8.0" apply false
     id("org.jetbrains.kotlin.android") version "2.1.0" apply false
-    id("com.android.library") version "8.7.3" apply false
+    id("com.android.library") version "8.8.0" apply false
     id("io.gitlab.arturbosch.detekt") version "1.23.7"
     id("org.jetbrains.dokka") version "2.0.0"
     id("io.github.gradle-nexus.publish-plugin") version "2.0.0"
