@@ -85,7 +85,7 @@ jobs:
 
       # Upload E2E Test recording
       - name: Upload recording
-        uses: actions/upload-artifact@v4.5.0
+        uses: actions/upload-artifact@v4.6.0
         if: ${{ failure() }}
         with:
           name: 'E2E Test recording - ${{ matrix.api-level }} ${{ matrix.target }} ${{ matrix.arch }} ${{ matrix.fusionauth-docker-image-version }}'

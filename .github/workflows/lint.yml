@@ -70,7 +70,7 @@ jobs:
 
       # Uploads Sarif Report for the library to GitHub
       - name: Upload kotlin library report
-        uses: github/codeql-action/upload-sarif@v3.28.0
+        uses: github/codeql-action/upload-sarif@v3.28.5
         if: success() || failure()
         with:
           sarif_file: library/build/reports/lint-results-debug.sarif
@@ -127,7 +127,7 @@ jobs:
 
       # Uploads Sarif Report for the app to GitHub
       - name: Upload kotlin app report
-        uses: github/codeql-action/upload-sarif@v3.28.0
+        uses: github/codeql-action/upload-sarif@v3.28.5
         if: success() || failure()
         with:
           sarif_file: app/build/reports/lint-results-debug.sarif

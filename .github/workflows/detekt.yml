@@ -76,7 +76,7 @@ jobs:
 
     # Uploads Sarif Report to GitHub
     - name: Upload SARIF to GitHub
-      uses: github/codeql-action/upload-sarif@v3.28.0
+      uses: github/codeql-action/upload-sarif@v3.28.5
       if: success() || failure()
       with:
         sarif_file: build/reports/detekt/merge.sarif.json
