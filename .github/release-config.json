@@ -1,0 +1,10 @@
+{
+  "release-type": "simple",
+  "include-component-in-tag": false,
+  "packages": {
+    ".": {
+      "type": "generic",
+      "extra-files": ["library/build.gradle.kts"]
+    }
+  }
+}
